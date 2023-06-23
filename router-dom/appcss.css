@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(138, 199, 252);
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#pHeader{
+    font-size: 22px;
+    text-align: center;
+    font-family: cursive ;
+    padding-top: 15px;
+}
+.post{
+    background-color: rgb(220, 238, 255);
+}
+#titulo{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px;
+}
+img{
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.subtitulo{
+    font-size: 14px;
+    padding: 10px;
+}
+.botao{
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1491ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.botao:hover{
+    transform: translate(-50%,-1px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288);
+    transition: .5s;
+}
